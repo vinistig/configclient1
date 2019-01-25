@@ -1,0 +1,15 @@
+server:
+  port: 7778
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: *
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
