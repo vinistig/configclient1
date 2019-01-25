@@ -6,7 +6,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: refresh, bus-refresh, env, bus-env
 spring:
   rabbitmq:
     host: localhost
